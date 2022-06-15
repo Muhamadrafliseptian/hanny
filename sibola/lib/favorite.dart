@@ -13,6 +13,12 @@ class Favorite extends StatefulWidget {
 class _FavoriteState extends State<Favorite> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: Center(
+        child: Text('Jan lupa makan', style: TextStyle(
+          fontSize: 20,
+        ),),
+      ),
+    );
   }
 }
