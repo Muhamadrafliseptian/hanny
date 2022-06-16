@@ -13,10 +13,12 @@ class _CartPageState extends State<CartPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Text('Kalo bingung tanya lagi', style: TextStyle(
-          fontSize: 20,
-        ),),
+      appBar: new AppBar(title: new Text("halaman booking sementara"),),
+      body: new Center(
+        child: new IconButton(
+          icon: new Icon(Icons.archive, size: 50.0,),
+          onPressed: null, 
+        ),
       ),
     );
   }

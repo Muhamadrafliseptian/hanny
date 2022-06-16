@@ -19,7 +19,7 @@ class _Menu extends State<Menu> {
   int currentIndex = 0;
   final Screens = [
     HomePage(),
-    Favorite(),
+    // Favorite(),
     CartPage(),
     ProfilePage(),
   ];
